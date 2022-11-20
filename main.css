@@ -1,0 +1,67 @@
+/***************************************************************************/
+/***************************************************************************/
+.container {
+  width:60%; 
+  margin:0 auto;
+}
+
+
+.site { 
+  background-image: url('body-bg-wood.jpg');
+}
+
+div.faderbg { 
+  background: #b96;
+  cursor: default;
+  opacity: 0.7;
+  align: center;
+  text-align: center;
+  // border: solid thick red;
+  border-radius: 1em;
+}
+
+@media screen and (max-width: 980px) {
+  body.site h2 {
+    font-size: 1.2em;
+  }
+  .container {
+    width:65%; 
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  body.site h2 {
+    font-size: 0.95em;
+  }
+  .container {
+    width:75%; 
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body.site h2 {
+    font-size: 0.85em;
+  }
+  .container {
+    width:80%; 
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body.site h2 {
+    font-size: 0.7em;
+  }
+  .container {
+    width:90%; 
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body.site h2 {
+    font-size: 0.6em;
+  }
+  .container {
+    width:95%; 
+  }
+}
